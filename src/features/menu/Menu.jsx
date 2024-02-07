@@ -16,9 +16,11 @@ function Menu() {
 }
 
 // https://github.com/remix-run/react-router/discussions/10856
-export async function loader() {
+async function loader() {
   const menu = await getMenu();
   return menu;
 }
+
+Menu.loader = loader;
 
 export default Menu;
