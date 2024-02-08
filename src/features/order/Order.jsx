@@ -52,10 +52,12 @@ function Order() {
   );
 }
 
-export async function loader({ params }) {
+async function loader({ params }) {
   const order = await getOrder(params.orderId);
 
   return order;
 }
+
+Order.loader = loader;
 
 export default Order;
