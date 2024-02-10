@@ -51,5 +51,12 @@ export const getTotalCartQuantity = (state) =>
 export const getTotalCartPrice = (state) =>
   state.cart.cart.reduce((acc, item) => acc + item.totalPrice, 0);
 
+/* Première Fonction ((id) =>): Prend un id comme argument. Cet id est utilisé pour identifier un élément spécifique dans le panier (dans votre cas, un pizzaId). Cette fonction ne fait rien d'autre que retourner une nouvelle fonction.
+
+Seconde Fonction ((state) =>): Est la fonction retournée par la première. Elle prend l'état global de l'application (state) comme argument. 
+
+#state est automatiquement passé à la fonction retournée par le useSelector
+
+*/
 export const getCurrentQuantityById = (id) => (state) =>
   state.cart.cart.find((item) => item.pizzaId === id)?.quantity ?? 0;
