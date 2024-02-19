@@ -1,8 +1,17 @@
-# React + Vite
+# Fast React Pizza 🍕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Order from the best pizza in town 🏅
 
-Currently, two official plugins are available:
+#### A project developed with React, Redux Toolkit & Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](https://i.imgur.com/xSzvqQO.png)
+
+![](https://i.imgur.com/YSPu2Iv.png)
+
+![](https://i.imgur.com/BrN6wtv.png)
+
+![](https://i.imgur.com/YIrxwq2.png)
+
+![](https://i.imgur.com/KX9Xa3C.png)
+
+![](https://i.imgur.com/kDh5Ur9.png)
